@@ -1,0 +1,13 @@
+{
+    "IDA": 1010,
+    "source": "mosaiq",
+    "timestamp": "2026-06-05T14:02:04.864288",
+    "data": {
+        "event_type": "treatment planning",
+        "diagnosis": "head and neck cancer",
+        "treatment_site": "head and neck",
+        "treatment_status": "completed",
+        "dose": 0.0,
+        "machine_id": "LINAC-01"
+    }
+}

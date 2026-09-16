@@ -1,0 +1,13 @@
+{
+    "IDA": 1003,
+    "source": "mosaiq",
+    "timestamp": "2027-01-21T06:21:04.760876",
+    "data": {
+        "event_type": "treatment",
+        "diagnosis": "breast cancer",
+        "treatment_site": "breast",
+        "treatment_status": "active",
+        "dose": 29.1,
+        "machine_id": "LINAC-02"
+    }
+}

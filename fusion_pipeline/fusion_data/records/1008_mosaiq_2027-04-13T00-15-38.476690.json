@@ -1,0 +1,13 @@
+{
+    "IDA": 1008,
+    "source": "mosaiq",
+    "timestamp": "2027-04-13T00:15:38.476690",
+    "data": {
+        "event_type": "consultation",
+        "diagnosis": "prostate cancer",
+        "treatment_site": "prostate",
+        "treatment_status": "active",
+        "dose": 0.0,
+        "machine_id": "LINAC-01"
+    }
+}

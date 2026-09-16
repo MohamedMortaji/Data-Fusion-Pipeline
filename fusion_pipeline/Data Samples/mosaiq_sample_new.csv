@@ -1,0 +1,31 @@
+IDA,timestamp,event_type,diagnosis,treatment_site,treatment_status,dose,machine_id
+1001,2026-06-09T10:17:20.583361,treatment planning,brain tumor,brain,planned,0.0,LINAC-01
+1001,2026-08-12T18:04:09.080225,treatment,brain tumor,brain,planned,65.0,LINAC-01
+1001,2027-03-07T19:26:28.764385,consultation,brain tumor,brain,completed,0.0,LINAC-01
+1001,2027-06-10T02:37:35.253728,imaging,brain tumor,brain,active,0.0,LINAC-01
+1002,2026-01-09T04:23:05.947623,treatment planning,breast cancer,breast,planned,0.0,LINAC-04
+1002,2026-12-06T06:49:07.377648,treatment,breast cancer,breast,followup,28.0,LINAC-04
+1002,2026-12-25T02:46:08.867263,consultation,breast cancer,breast,active,0.0,LINAC-04
+1003,2026-01-02T02:34:42.819564,consultation,breast cancer,breast,planned,0.0,LINAC-02
+1003,2026-03-21T01:19:15.500086,treatment,breast cancer,breast,completed,35.7,LINAC-02
+1003,2027-01-21T06:21:04.760876,treatment,breast cancer,breast,active,29.1,LINAC-02
+1003,2027-06-28T18:17:08.916681,treatment,breast cancer,breast,followup,34.9,LINAC-02
+1004,2026-06-14T15:35:01.364981,consultation,prostate cancer,prostate,planned,0.0,LINAC-03
+1004,2026-09-16T22:13:40.408675,treatment planning,prostate cancer,prostate,completed,0.0,LINAC-03
+1004,2027-08-07T22:29:41.140450,consultation,prostate cancer,prostate,completed,0.0,LINAC-03
+1005,2026-07-17T02:00:06.020389,consultation,head and neck cancer,head and neck,planned,0.0,LINAC-04
+1005,2026-10-27T23:09:32.530480,consultation,head and neck cancer,head and neck,completed,0.0,LINAC-04
+1005,2027-05-26T18:18:28.585706,consultation,head and neck cancer,head and neck,completed,0.0,LINAC-04
+1006,2026-01-12T06:33:40.814189,treatment planning,brain tumor,brain,planned,0.0,LINAC-01
+1006,2026-08-17T12:36:44.726450,consultation,brain tumor,brain,active,0.0,LINAC-01
+1006,2027-05-07T13:22:51.179847,treatment planning,brain tumor,brain,active,0.0,LINAC-01
+1007,2027-04-17T14:09:09.239514,treatment planning,head and neck cancer,head and neck,planned,0.0,LINAC-03
+1007,2027-08-04T02:35:17.349847,treatment planning,head and neck cancer,head and neck,completed,0.0,LINAC-03
+1008,2026-03-09T10:05:30.063232,treatment planning,prostate cancer,prostate,planned,0.0,LINAC-01
+1008,2027-04-13T00:15:38.476690,consultation,prostate cancer,prostate,active,0.0,LINAC-01
+1008,2027-05-13T11:28:09.391722,treatment followup,prostate cancer,prostate,completed,65.9,LINAC-01
+1009,2026-02-27T10:47:53.991981,consultation,prostate cancer,prostate,planned,0.0,LINAC-03
+1009,2026-06-22T01:15:13.184289,consultation,prostate cancer,prostate,active,0.0,LINAC-03
+1009,2027-03-15T09:32:08.339449,treatment followup,prostate cancer,prostate,followup,28.1,LINAC-03
+1010,2026-02-20T12:20:58.216108,consultation,head and neck cancer,head and neck,planned,0.0,LINAC-01
+1010,2027-01-10T18:43:18.407788,treatment planning,head and neck cancer,head and neck,completed,0.0,LINAC-01

@@ -1,0 +1,13 @@
+{
+    "IDA": 1006,
+    "source": "mosaiq",
+    "timestamp": "2026-04-05T20:50:11.096301",
+    "data": {
+        "event_type": "consultation",
+        "diagnosis": "brain tumor",
+        "treatment_site": "brain",
+        "treatment_status": "active",
+        "dose": 0.0,
+        "machine_id": "LINAC-01"
+    }
+}

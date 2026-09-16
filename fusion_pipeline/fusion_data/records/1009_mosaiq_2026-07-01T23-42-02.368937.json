@@ -1,0 +1,13 @@
+{
+    "IDA": 1009,
+    "source": "mosaiq",
+    "timestamp": "2026-07-01T23:42:02.368937",
+    "data": {
+        "event_type": "treatment followup",
+        "diagnosis": "prostate cancer",
+        "treatment_site": "prostate",
+        "treatment_status": "followup",
+        "dose": 28.1,
+        "machine_id": "LINAC-03"
+    }
+}
