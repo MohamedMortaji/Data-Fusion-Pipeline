@@ -6,6 +6,8 @@ from preprocess import preprocess_source_data
 from incremental_selection import select_incremental_data
 from json_serialization import serialize_records
 from fusion import fuse_records, write_pending_records, approve_pending_records, has_pending_records
+from monitoring.monitor import run_monitoring
+from monitoring.conflicts import save_conflicts, dataframe_to_records, detect_conflicts
 
 def main():
 
@@ -49,6 +51,23 @@ def main():
 
     # 2- Preliminary preprocessing
     mosaiq_data, myoncare_data = preprocess_source_data(mosaiq_data, myoncare_data)
+
+    #Run Monitoring
+    run_monitoring(mosaiq_data, myoncare_data, fusion_data_path)
+
+    # Conflict detection
+    mosaiq_incoming = dataframe_to_records(mosaiq_data,"mosaiq")
+    myoncare_incoming = dataframe_to_records(myoncare_data, "myoncare")
+
+    incoming_records = mosaiq_incoming + myoncare_incoming
+
+    conflicts = detect_conflicts(incoming_records, fusion_data_path)
+
+    if conflicts:
+        print(f"Detected {len(conflicts)} conflict(s).")
+        save_conflicts(conflicts,fusion_data_path)
+    else:
+        print("No conflicts detected.")
 
     # 3- Incremental selection
     mosaiq_new, myoncare_new = select_incremental_data(mosaiq_data, myoncare_data, fusion_data_path)

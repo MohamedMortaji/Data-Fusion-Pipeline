@@ -1,3 +1,5 @@
+import pandas as pd
+
 def match_cases(mosaiq_data, myoncare_data):
     """
     Match cases between Mosaiq and Myoncare using IDA.
